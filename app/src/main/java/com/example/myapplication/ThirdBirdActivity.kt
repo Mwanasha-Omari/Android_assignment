@@ -15,9 +15,11 @@ class ThirdBirdActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+//        binding.btnPrev.setOnClickListener {
+//            val intent = Intent(this, FourthBirdActivity::class.java)
+//            startActivity(intent)
         binding.btnNext.setOnClickListener {
-            val intent = Intent(this, ThirdBirdActivity::class.java)
+            val intent = Intent(this, FourthBirdActivity::class.java)
             startActivity(intent)
 
         }

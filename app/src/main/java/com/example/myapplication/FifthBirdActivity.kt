@@ -28,4 +28,5 @@ class FifthBirdActivity : AppCompatActivity() {
             .resize(500,500)
             .into(binding.imageView)
     }
+
 }
